@@ -1,1 +1,31 @@
+# Site settings
+title: Áron Ricardo Perez-Lopez
+email: perez.aron@gmail.com
+email_institute: arpl@mit.edu
+email_work: arpl@tech.mit.edu
+description: >- # this means to ignore newlines until "baseurl:"
+  Personal page or Áron Ricardo Perez-Lopez (CyanoKobalamyne). Software
+  developer, science nerd, and world traveler. MIT Class of 2020.
+baseurl: ""
+url: "https://cyanokobalamne.github.io"
 permalink: pretty
+facebook_username: perez.aron
+twitter_username: CyanoKobalamyne
+github_username: CyanoKobalamyne
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
