@@ -1,11 +1,14 @@
 <!doctype html>
 <html>
     <head>
-        {% include meta.html %}
         <title>{{ page.title }}</title>
+        {% include meta.html %}
     </head>
     <body>
         {% include navigation.html %}
-        {{ content }}
+        <main>
+            {{ content }}
+        </main>
+        {% include footer.html %}
     </body>
 </html>
