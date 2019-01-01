@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<section id="introduction">
+    {{ content }}
+</section>
+<section id="explore">
+    {% for item in site.data.pages %}
+        <a href="{{ item.link }}" class="page-link">
+            <h2>{{ item.name }}</h2>
+            {% octicon {{ item.icon }} height:32 %}
+        </a>
+    {% endfor %}
+</section>
