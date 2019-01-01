@@ -1,8 +1,9 @@
-- name: Home
-  link: /
 - name: Projects
   link: /projects/
+  icon: tools
 - name: Papers
   link: /papers/
+  icon: file
 - name: Blog
   link: /blog/
+  icon: repo
