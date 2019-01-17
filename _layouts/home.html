@@ -1,12 +1,15 @@
 ---
 layout: default
 ---
-<section id="introduction">
-    {{ content }}
-</section>
+<div id="above-the-fold">
+    <img id="profile-picture" src="{{ site.baseurl }}/assets/images/DSC04050.JPG" alt="Profile picture">
+    <section id="introduction">
+        {{ content }}
+    </section>
+</div>
 <section id="explore">
     {% for item in site.data.pages %}
-        <a href="{{ item.link }}" class="page-link">
+        <a href="{{ item.link }}" class="project-link">
             <h2>{{ item.name }}</h2>
             {% octicon {{ item.icon }} height:32 %}
         </a>

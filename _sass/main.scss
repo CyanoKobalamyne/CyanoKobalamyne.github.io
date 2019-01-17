@@ -1,3 +1,37 @@
+html {
+    // Top-level grid parent.
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-areas: ". content .";
+}
+
+body {
+    // Top-level grid child.
+    grid-area: content;
+    max-width: 1140px;
+
+    // Main page grid parent.
+    display: grid;
+    grid-template-rows: 2em auto 2em;
+    grid-template-columns: auto;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+}
+
+nav.primary {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
 .current {
     color: red;
 }

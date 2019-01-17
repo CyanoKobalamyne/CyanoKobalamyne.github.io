@@ -2,8 +2,6 @@
 layout: home
 title: Home
 ---
-![Profile picture]({{ site.baseurl }}/assets/images/DSC04050.JPG)
-
 Born to a Hungarian mother and a Cuban father, I consider myself international.
 I have lived in Budapest, Mexico City, and Boston but I'm a proud citizen of
 the European Union. I'm passionate about science, especially Chemistry, and

@@ -1,0 +1,36 @@
+main {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "top"
+        "projects";
+}
+
+div#above-the-fold {
+    grid-area: top;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img#profile-picture {
+    max-width: 400px;
+    height: auto;
+    width: auto;
+}
+
+section#introduction {
+    min-width: 300px;
+    max-width: 740px;
+}
+
+section#explore {
+    grid-area: projects;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a.project-link {
+    height: 5em;
+    width: 5em;
+    margin: 1em;
+}
